@@ -35,7 +35,7 @@
                                 </span>
                             </div>
                             <div class="comment-item-content">{{ childComment.content }}</div>
-                            <div class="comment-item-time">{{ comment.gmtCreated }}</div>
+                            <div class="comment-item-time">{{ childComment.gmtCreated }}</div>
 
                             <div class="comment-item-actions">
                                 <v-btn variant="plain" prepend-icon="mdi-comment" size="x-small"
